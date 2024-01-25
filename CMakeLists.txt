@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.15)
-project(machin CXX)
+project(bidule CXX)
 
 
 
 
-add_library(machin src/machin.cpp)
-target_include_directories(machin PUBLIC include)
+add_library(bidule src/bidule.cpp)
+target_include_directories(bidule PUBLIC include)
 
 
 
-set_target_properties(machin PROPERTIES PUBLIC_HEADER "include/machin.h")
-install(TARGETS machin)
+set_target_properties(bidule PROPERTIES PUBLIC_HEADER "include/bidule.h")
+install(TARGETS bidule)

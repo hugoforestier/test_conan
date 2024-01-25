@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.15)
 project(PackageTest CXX)
 
-find_package(machin CONFIG REQUIRED)
+find_package(bidule CONFIG REQUIRED)
 
 
 
 add_executable(example src/example.cpp)
-target_link_libraries(example machin::machin)
+target_link_libraries(example bidule::bidule)

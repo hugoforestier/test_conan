@@ -1,12 +1,12 @@
-#include "machin.h"
+#include "bidule.h"
 #include <vector>
 #include <string>
 
 int main() {
-    machin();
+    bidule();
 
     std::vector<std::string> vec;
     vec.push_back("test_package");
 
-    machin_print_vector(vec);
+    bidule_print_vector(vec);
 }

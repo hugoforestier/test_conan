@@ -2,8 +2,8 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout, CMakeDeps
 
 
-class machinRecipe(ConanFile):
-    name = "machin"
+class biduleRecipe(ConanFile):
+    name = "bidule"
     version = "1.0"
     package_type = "library"
 
@@ -11,7 +11,7 @@ class machinRecipe(ConanFile):
     license = "<Put the package license here>"
     author = "<Put your name here> <And your email here>"
     url = "<Package recipe repository url here, for issues about the package>"
-    description = "<Description of machin package here>"
+    description = "<Description of bidule package here>"
     topics = ("<Put some tag here>", "<here>", "<and here>")
 
     # Binary configuration
@@ -49,7 +49,7 @@ class machinRecipe(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = ["machin"]
+        self.cpp_info.libs = ["bidule"]
 
     
 
